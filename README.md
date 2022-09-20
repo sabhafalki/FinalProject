@@ -34,4 +34,4 @@ Our goal is to
 
 ## Presentation
 
-![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click-yellow-button-with-arrow-pointer-clicking_399089-482.jpeg)
+[click](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
