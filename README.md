@@ -1,3 +1,4 @@
+
 # FinalProject_Team7
 
 ### Toronto Raptors Analysis
@@ -30,7 +31,7 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
-- ![Slack](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/new-slack-logo.jpeg =100X100)Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
+- ![Slack](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/new-slack-logo.jpeg)Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
 
 [Team's checklist/tracker](https://docs.google.com/spreadsheets/d/1rn7Is3dSXuilpRUV3Z6b2k_wwF7vTUsTR0i6NS5GKXs/edit#gid=0)
 
