@@ -15,7 +15,16 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
 ## Group communication protocols
 
--   
+-   Throughout this project the group has constantly made contact through the slack app.
+-   This includes sharing information that we find online, code & arranging meetings at least once a week.
+Team's checklist/tracker
+
+Team Responsibilties
+- Claudia Martin
+- Falki Sabha
+- Awalin Buttar
+- Gopinath Vasanthakumar
+
 
 ## Getting started
 
