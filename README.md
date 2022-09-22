@@ -53,7 +53,7 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
-![slack](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/Screen%20Shot%202022-09-20%20at%208.51.36%20PM.png)
+![slack](https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Slack.png)
 
   
 
