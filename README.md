@@ -5,7 +5,7 @@
 
 ## Project Goal
 
-The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. ). We will also perform Machine Learning on this data, to achieve……..
+The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. ). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
 
 This analysis will also aid coaches, sponsors and players, in better understanding their teams performance based on variables outlined in the analysis.
 
