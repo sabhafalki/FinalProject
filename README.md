@@ -126,8 +126,9 @@ After the appropriate data cleaning (joining the regular season and playoff data
   
 
 ## Database
+As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accomodate any future data through a star schema with dimension tables around players and matchup team and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure based on the login referred in Data Analysis section above. [![ERD] (https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/Raptor_ERD.png)]
 
-  
+The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis.
 
 ## Project dashboard
 
