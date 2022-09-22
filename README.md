@@ -42,13 +42,13 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
 #### Team Responsibilities
 
-- Claudia Martin - Machine learning
+- Triangle role - Claudia Martin - Machine learning
 
-- Falki Sabha - Presentation/Dashboard
+- X role - Falki Sabha - Presentation/Dashboard
 
-- Awalin Buttar - Github/Dashboard
+- Square Role - Awalin Buttar - Github/Dashboard
 
-- Gopinath Vasanthakumar - Database
+- Circle Role - Gopinath Vasanthakumar - Database
 
   
 
