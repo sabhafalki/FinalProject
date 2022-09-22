@@ -48,13 +48,6 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 ## Group communication protocols
 
   
-
-  
-
-  
-
-![slack](https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Slack.png)
-
   
 
 - Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
