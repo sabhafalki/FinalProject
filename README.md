@@ -1,10 +1,17 @@
+
   
 
 # FinalProject_Team7
 
+  
+
 ### Toronto Raptors Analysis
 
+  
+
 #### 2018-2019 NBA Champion
+
+  
 
   
 
@@ -12,11 +19,17 @@
 
   
 
+  
+
 The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. ). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
 
   
 
+  
+
 This analysis will also aid coaches, sponsors and players, in better understanding their teams performance based on variables outlined in the analysis.
+
+  
 
   
 
@@ -28,6 +41,9 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
+  
 
 ## Group communication protocols
 
@@ -35,9 +51,15 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
 ![slack](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/Screen%20Shot%202022-09-20%20at%208.51.36%20PM.png)
 
+  
+
 - Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
+
+  
 
   
 
@@ -47,7 +69,11 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
 #### Team Responsibilities
+
+  
 
   
 
@@ -55,7 +81,11 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
 - X role - Falki Sabha - Presentation/Dashboard
+
+  
 
   
 
@@ -63,9 +93,15 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
 - Circle Role - Gopinath Vasanthakumar - Database
 
+  
+
 ## Getting started
+
+  
 
   
 
@@ -77,7 +113,11 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 
   
 
+  
+
 ## Machine Learning
+
+  
 
   
 
@@ -85,23 +125,41 @@ Using the Raptors 2018-2019 Championship season data set we hope to  explore dif
 
   
 
+  
+
 - RandomOverSampler
+
+  
 
 - SMOTE
 
+  
+
 - ClusterCentroids
+
+  
 
 - SMOTEENN
 
+  
+
 - BalancedRandomForestClassifier
+
+  
 
 - EasyEnsembleClassifier
 
   
 
+  
+
 ### Primary ML Goal:
 
+  
+
 We hope to evaluate the performance of each model and make recomendations based on which model is the most accurate at predicting game outcome.
+
+  
 
   
 
@@ -109,7 +167,11 @@ We hope to evaluate the performance of each model and make recomendations based 
 
   
 
+  
+
 The columns present in the dataset that we will be using are featured in the figure below:
+
+  
 
   
 
@@ -117,7 +179,11 @@ The columns present in the dataset that we will be using are featured in the fig
 
   
 
+  
+
 From these columns we will exclude the TEAM, MATCHUP, and Score (+/-). The X features will be the remaining columns excluding that which will be our target. Our target coulmn will be y = "W/L", this represents the outcome of the match.
+
+  
 
   
 
@@ -125,12 +191,22 @@ After the appropriate data cleaning (joining the regular season and playoff data
 
   
 
+  
+
 ## Database
-As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accomodate any future data through a star schema with dimension tables around players and matchup team and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure based on the login referred in Data Analysis section above. [![ERD] (https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/Raptor_ERD.png)]
+
+As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accommodate any future data through a star schema with dimension tables around players and matchup team and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure based on the login referred in Data Analysis section above. 
+![ERD](https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Raptor_ERD.png)
+
+  
 
 The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis.
 
+  
+
 ## Project dashboard
+
+  
 
   
 
@@ -140,13 +216,21 @@ The team decide to ingest the cleaned data for the analysis into SQL database ra
 
   
 
+  
+
 ## Resources
+
+  
 
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
 
   
 
+  
+
 ## Presentation
+
+  
 
   
 
