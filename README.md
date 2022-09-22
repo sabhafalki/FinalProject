@@ -23,8 +23,17 @@ This analysis will also aid coaches, sponsors and players, in better understandi
 ## Exploratory Data
 
 
-## Data Analysis & Machine Learning
+## Machine Learning
+Using the Raptors 2018-2019 Championship season data set we hope to  explore different machine learning models. The models we hope to use include oversampling, undersampling and combination sampling algorithms. Additionally we hope to use Ensemble learners; in using these we hope to extract feature importance. Overall the algorithms we will use are:
 
+- RandomOverSampler
+- SMOTE
+- ClusterCentroids
+- SMOTEENN
+- BalancedRandomForestClassifier
+- EasyEnsembleClassifier
+
+We hope to evaluate the performance of each model and make recomendations based on which model is the most accurate at predicting game outcome.
 
 ## Database
 
