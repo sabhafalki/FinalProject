@@ -59,7 +59,7 @@ As outlined in the project goal, the team intends to use the 2018-2019 NBA Champ
 The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis.
 
 ## Project Dashboard
-The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. 
+The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.(once done I will add it)
 
 
 ## Conclusion
