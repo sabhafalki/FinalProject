@@ -73,4 +73,4 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 
 ## Storyboard
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)]
-(https://github.com/awalindeep/FinalProject_Team7/blob/Falki-Sabha/Resources/Overall%20Project%20Flow.png)
+(https://github.com/awalindeep/FinalProject_Team7/blob/Falki-Sabha/Resources/Overall_Project_Flow.png)
