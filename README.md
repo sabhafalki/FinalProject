@@ -52,8 +52,52 @@ From these columns we will exclude the TEAM, MATCHUP, and Score (+/-). The X fea
 
 After the appropriate data cleaning (joining the regular season and playoff data, removing null and missing data, and dropping the appropriate columns) we will use the above describe X and y to split the data into training and testing data sets. Using these data sets the models listed above will be evaluated.
 
+### Week 2 ML: Building the ML Code
+
+The ML analysis that was completed can be found in the notebook below:
+
+[Raptors_Resampling_ML.ipynb](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Machine%20Learning%20Analysis/Raptors_Resampling_ML.ipynb)
+
+The following steps were followed in to complete the ML analysis:
+
+1) Preliminiary data preprocessing
+
+During this stage two datasets were joined. Team match data for the regular and playoff season was avaliable; this data was loaded into Jupyter notebook and was the concatenated togather as they had identical column headers.
+
+To prepare the data for the ML algorithms columns that were not going to be used were dropped, the target column was converted to an integer datatype and any null data was also dropped.
+
+- From the Columns in the figure above Four columns were excluded: DATE, TEAM, MATCHUP, and Score (+/-). These columns included data that we believed would not be helpful to include in the ML algorithms. The DATE column gave us the date for each game which would be different for each data point and different between seasons. The TEAM column was redundant and stated that each data point was for a Raptor's game. The MATCHUP column told us the team the Raptors were playing against. Finally, the +/- column gave a metric of how much the Raptors won or lost by; we felt this had no predictive value.
+- It is possible that both the DATE and MATCHUP columns could provide some predicitve value if we look at performance for say a particular month or against a particular team however we belive this would require more data from other seasons as having only one seasons data limits the usability of this data within a ML model.
+
+- The target column for this analysis was the W/L column; this told us if the Raptors had won or lost that game. We hope to see which model could most accuratly predict if the Raptors would win or loose a game. This column was initially an object datatype. This was converted into an integer where W = 0 and L = 1.
+
+- Finally, The data was then checked for null values; any null values were dropped.
+
+2) Preliminary Feature Selection
+
+As stated above the desired columns/features had already been retained and the target column had been selected.
+
+The features were created:
+
+![]()
+
+The target was selected:
+
+![]()
+
+3) Splitting the Data to training and testing sets
+
+The sklearn.model_selection train_test_split was then used to split the data. The default test and train size was used meaning the test size was set to 0.25 and the train size then automatically complemented that.
+
+4) Model Choice
+
+For this analysis we wanted to evaluate different models to see which would be the most accurate at predicting Wins vs Losses. The benefit of this is that we hope to be able to extract the most accurate model by looking at many models as opposed to only trying one and hoping that it was the best one. The limitation of this is that since we are considering accuracy as the measure of which model is best, it is possible we miss considereing the precision and sensitivity (recall) of each model, and how this may better represent whether the model is good or not.
+
+With the current analysis the best ML algorithm based on accuracy is the Easy Ensemble AdaBoost Classifier with a balanced accuracy score of 86.7%. 
+
 ## Database
 As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accommodate any future data through a star schema with dimension tables around players and matchup team and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure based on the login referred in Data Analysis section above. 
+
 ![ERD](https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Raptor_ERD.png)
 
 The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis.
