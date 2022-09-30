@@ -79,11 +79,11 @@ As stated above the desired columns/features had already been retained and the t
 
 The features were created:
 
-![]()
+![Features Created.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Features%20Created.PNG)
 
 The target was selected:
 
-![]()
+![Target Selected.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Target%20Selected.PNG)
 
 3) Splitting the Data to training and testing sets
 
