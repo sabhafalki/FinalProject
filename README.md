@@ -123,7 +123,8 @@ The csv's were then imported into the respective tables and the below image outl
 
 ![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
 
-## Project dashboard
+## Project Dashboard
+The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.(once done I will add it)
 
 
 ## Conclusion
@@ -134,3 +135,6 @@ The csv's were then imported into the respective tables and the below image outl
 
 ## Presentation
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
+
+## Storyboard
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/blob/Falki-Sabha/Resources/Overall_Project_Flow.png)
