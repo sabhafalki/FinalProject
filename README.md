@@ -89,11 +89,71 @@ The following steps were followed in to complete the ML analysis:
 
    The sklearn.model_selection train_test_split was then used to split the data. The default test and train size was used meaning the test size was set to 0.25 and the train size then automatically complemented that.
 
-4) Model Choice
+4) Preliminary Model Choice
 
    For this analysis we wanted to evaluate different models to see which would be the most accurate at predicting Wins vs Losses. The benefit of this is that we hope to be able to extract the most accurate model by looking at many models as opposed to only trying one and hoping that it was the best one. The limitation of this is that since we are considering accuracy as the measure of which model is best, it is possible we miss considereing the precision and sensitivity (recall) of each model, and how this may better represent whether the model is good or not.
 
    With the current analysis the best ML algorithm based on accuracy is the Easy Ensemble AdaBoost Classifier with a balanced accuracy score of 86.7%. 
+   
+### Week 3: Refining Model Choice
+
+Results from the ML algorithms are found below:
+
+#### 1. RandomOverSampler
+
+      a. Balanced Accuray: 85.8%
+      
+      b. Precision: 86%
+      
+      c. Recall: 85%
+
+#### 2. SMOTE
+
+      a. Balanced Accuray: 80%
+      
+      b. Precision: 83%
+      
+      c. Recall: 81%
+
+#### 3. ClusterCentroids
+
+      a. Balanced Accuray: 85%
+      
+      b. Precision: 85%
+      
+      c. Recall: 85%
+      
+#### 4. SMOTEENN
+
+      a. Balanced Accuray: 80%
+      
+      b. Precision: 85%
+       
+      c. Recall: 78%
+
+#### 5. BalancedRandomForestClassifier
+
+      a. Balanced Accuray: 75%
+      
+      b. Precision: 76%
+      
+      c. Recall: 74%
+      
+      Feature Importance Analysis:
+      
+      ![]()
+      
+      
+
+#### 6. EasyEnsembleClassifier
+
+      a. Balanced Accuray: 86.7%
+      
+      b. Precision: 89%
+      
+      c. Recall: 85%
+
+
 
 ## Database
 
