@@ -13,7 +13,7 @@ In order for our analysis to be fruitful, we will focus on the following key que
  3. Attempts vs Made Shots Overall (Player or Team)
  4. Number of Assists vs Points Made Overall (Team)
  5. Number of Turnover vs Points Made Overall (Team)
- 6. Overal Parameters vs Team Outcome - Key Parameters (i.e. Shots, Passes, Fouls, Turnover, etc.)
+ 6. Overall Parameters vs Team Outcome - Key Parameters (i.e. Shots, Passes, Fouls, Turnover, etc.)
 
 ## Group communication protocols
 - Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
