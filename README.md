@@ -196,7 +196,6 @@ To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents differen
 - The match's played in home have more win's then Away, weather it is Regular or Playoff.
 - Either it is Home/Away, Kawhi Leonard is the best player to score more points to win the Champship.
 - Pascal Siakam Raptors forward is the player with high Field Goal percentage, with high rate of wins in this season. 
-- 
 - Appart from the champship data for overall evaluation, we have to evaluate other data such as in home play-by-play, Scoring postions, freshers players performance and the type of goal the players are good at. That helps to from a strong team.
  
 
