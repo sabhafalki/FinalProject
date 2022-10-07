@@ -2,7 +2,7 @@
 ### Toronto Raptors Analysis
 #### 2018-2019 NBA Champion
 ## Project Goal
-The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. ). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
+The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. Shots, Passes, Fouls, Turnover, etc.). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
 
 This analysis will also aid coaches, sponsors and players, in better understanding their teams performance based on variables outlined in the analysis.
 
@@ -128,11 +128,10 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 
 
 ## Conclusion ##
-
 To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different measures that help us to perdict and analyze player's and team's performance based on  various parmeters(i.e. Shots, Passes, Fouls, Turnover, etc.). The following are the outcomes results of this analysis:
 - The match's played in home have more win's then Away, weather it is Regular or Playoff.
 - Either it is Home/Away, Kawhi Leonard is the best player to score more points to win the Champship.
-
+- Pascal Siakam is the player with high Field Goal percentage, with high rate of wins in this season. 
 
 ## Resources
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
