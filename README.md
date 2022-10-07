@@ -13,7 +13,7 @@ In order for our analysis to be fruitful, we will focus on the following key que
  3. Attempts vs Made Shots Overall (Player or Team)
  4. Number of Assists vs Points Made Overall (Team)
  5. Number of Turnover vs Points Made Overall (Team)
- 6. Overal Parameters vs Team Outcome - Key Parameters (i.e. Shots, Passes, Fouls, Turnover, etc.)
+ 6. Overall Parameters vs Team Outcome - Key Parameters (i.e. Shots, Passes, Fouls, Turnover, etc.)
 
 ## Group communication protocols
 - Regular communication through Slack Channel. This includes sharing information that we find online, code & arranging meetings.
@@ -89,11 +89,73 @@ The following steps were followed in to complete the ML analysis:
 
    The sklearn.model_selection train_test_split was then used to split the data. The default test and train size was used meaning the test size was set to 0.25 and the train size then automatically complemented that.
 
-4) Model Choice
+4) Preliminary Model Choice
 
    For this analysis we wanted to evaluate different models to see which would be the most accurate at predicting Wins vs Losses. The benefit of this is that we hope to be able to extract the most accurate model by looking at many models as opposed to only trying one and hoping that it was the best one. The limitation of this is that since we are considering accuracy as the measure of which model is best, it is possible we miss considereing the precision and sensitivity (recall) of each model, and how this may better represent whether the model is good or not.
 
    With the current analysis the best ML algorithm based on accuracy is the Easy Ensemble AdaBoost Classifier with a balanced accuracy score of 86.7%. 
+   
+### Week 3: Refining Model Choice
+
+Results from the ML algorithms are found below:
+
+#### 1. RandomOverSampler
+
+      a. Balanced Accuray: 85.8%
+      
+      b. Precision: 86%
+      
+      c. Recall: 85%
+
+#### 2. SMOTE
+
+      a. Balanced Accuray: 80%
+      
+      b. Precision: 83%
+      
+      c. Recall: 81%
+
+#### 3. ClusterCentroids
+
+      a. Balanced Accuray: 85%
+      
+      b. Precision: 85%
+      
+      c. Recall: 85%
+      
+#### 4. SMOTEENN
+
+      a. Balanced Accuray: 80%
+      
+      b. Precision: 85%
+       
+      c. Recall: 78%
+
+#### 5. BalancedRandomForestClassifier
+
+      a. Balanced Accuray: 75%
+      
+      b. Precision: 76%
+      
+      c. Recall: 74%
+      
+   **Feature Importance Analysis:**
+      
+   ![Feature Importance Analysis.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Feature%20Importance%20Analysis.PNG)
+      
+   From this feature analysis we see that minutes played (MIN) and personal fouls (PF) were of the least importance when running this model. 
+
+#### 6. EasyEnsembleClassifier
+
+      a. Balanced Accuray: 86.7%
+      
+      b. Precision: 89%
+      
+      c. Recall: 85%
+
+From the results of the ML analysis described above we can see that the EasyEnsembleClassifier model was the most accurate (86.7%). It is important to note that there were two other models that displayed similar accuracy scores: RandomOverSampler (85.8%) and ClusterCentroids (85%). For future analysis it may be interesting to add further historical data of previous seasons to see if the results remain the same. It would also be interesting to see what feature importances persist in this case with more data.
+
+Finally, I would recommend the use of the EasyEnsembleClassifier model due to it having the highest accuracy score of all the models. A limitation of this model however is that it can be sewnsative to outliers and noise therefore care has to be put to identify if outliers exist in the avaliablke data. Future steps could include outlier analysis and exclusion to perhaps improve the outcomes of this model.
 
 ## Database
 
