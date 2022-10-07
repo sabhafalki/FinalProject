@@ -137,7 +137,7 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
 
 ## Storyboard
-Player's Storyboard
+Player's Storyboard <br>
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/PlayerDashboard_16651306173910/Story1)
-Team Storyboard
+Team Storyboard <br>
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/RaptorsTeam/RaptorsTeam)
