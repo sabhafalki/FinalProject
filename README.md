@@ -141,9 +141,9 @@ Results from the ML algorithms are found below:
       
       Feature Importance Analysis:
       
-      ![]()
+      ![Feature Importance Analysis.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Feature%20Importance%20Analysis.PNG)
       
-      
+      From this feature analysis we see that minutes played (MIN) and personal fouls (PF) were of the least importance when running this model. 
 
 #### 6. EasyEnsembleClassifier
 
@@ -153,7 +153,9 @@ Results from the ML algorithms are found below:
       
       c. Recall: 85%
 
+From the results of the ML analysis described above we can see that the EasyEnsembleClassifier model was the most accurate (86.7%). It is important to note that there were two other models that displayed similar accuracy scores: RandomOverSampler (85.8%) and ClusterCentroids (85%). For future analysis it may be interesting to add further historical data of previous seasons to see if the results remain the same. It would also be interesting to see what feature importances persist in this case with more data.
 
+Finally, I would recommend the use of the EasyEnsembleClassifier model due to it having the highest accuracy score of all the models. A limitation of this model however is that it can be sewnsative to outliers and noise therefore care has to be put to identify if outliers exist in the avaliablke data. Future steps could include outlier analysis and exclusion to perhaps improve the outcomes of this model.
 
 ## Database
 
