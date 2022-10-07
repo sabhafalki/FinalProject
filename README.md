@@ -128,7 +128,7 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 
 
 ## Conclusion
-
+To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different parmeters that help us to perdict and analyze player/team various measures. This analysis  
 
 ## Resources
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
