@@ -191,9 +191,14 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 
 ## Conclusion ##
 To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different measures that help us to perdict and analyze player's and team's performance based on  various parmeters(i.e. Shots, Passes, Fouls, Turnover, etc.). The following are the outcomes results of this analysis:
+- According to the Raptors Champship data, It is concerned for a particular season which they won. This analysis helps the Toronto Raptors Board to extend the contract of the high performing players based various Parameters.
+- Helps to show the area of improvement for the up coming young players (freshers). 
 - The match's played in home have more win's then Away, weather it is Regular or Playoff.
 - Either it is Home/Away, Kawhi Leonard is the best player to score more points to win the Champship.
-- Pascal Siakam is the player with high Field Goal percentage, with high rate of wins in this season. 
+- Pascal Siakam Raptors forward is the player with high Field Goal percentage, with high rate of wins in this season. 
+- 
+- Appart from the champship data for overall evaluation, we have to evaluate other data such as in home play-by-play, Scoring postions, freshers players performance and the type of goal the players are good at. That helps to from a strong team.
+ 
 
 ## Resources
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
