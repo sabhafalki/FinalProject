@@ -2,7 +2,7 @@
 ### Toronto Raptors Analysis
 #### 2018-2019 NBA Champion
 ## Project Goal
-The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. ). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
+The goal of this project is to analyze Raptors performance during their participation in the 2018 -2019 NBA Championship. The goal is to analyze their performance based on various parameters (i.e. Shots, Passes, Fouls, Turnover, etc.). We will also perform Machine Learning on this data. We hope to explore various ML models that predict the game outcome based on a variety of factors. We will use accuracy as the measure to determine which ML model would work best.
 
 This analysis will also aid coaches, sponsors and players, in better understanding their teams performance based on variables outlined in the analysis.
 
@@ -186,11 +186,18 @@ The csv's were then imported into the respective tables and the below image outl
 ![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
 
 ## Project Dashboard
-The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.(once done I will add it)
+The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.
 
 
-## Conclusion
-
+## Conclusion ##
+To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different measures that help us to perdict and analyze player's and team's performance based on  various parmeters(i.e. Shots, Passes, Fouls, Turnover, etc.). The following are the outcomes results of this analysis:
+- According to the Raptors Champship data, It is concerned for a particular season which they won. This analysis helps the Toronto Raptors Board to extend the contract of the high performing players based various Parameters.
+- Helps to show the area of improvement for the up coming young players (freshers). 
+- The match's played in home have more win's then Away, weather it is Regular or Playoff.
+- Either it is Home/Away, Kawhi Leonard is the best player to score more points to win the Champship.
+- Pascal Siakam Raptors forward is the player with high Field Goal percentage, with high rate of wins in this season. 
+- Appart from the champship data for overall evaluation, we have to evaluate other data such as in home play-by-play, Scoring postions, freshers players performance and the type of goal the players are good at. That helps to from a strong team.
+ 
 
 ## Resources
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
@@ -199,4 +206,7 @@ The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Ta
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
 
 ## Storyboard
-[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/blob/Falki-Sabha/Resources/Overall_Project_Flow.png)
+Player's Storyboard <br>
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/PlayerDashboard_16651306173910/Story1) <br><br>
+Team Storyboard <br>
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/RaptorsTeam/RaptorsTeam)
