@@ -139,11 +139,11 @@ Results from the ML algorithms are found below:
       
       c. Recall: 74%
       
-      Feature Importance Analysis:
+   **Feature Importance Analysis:**
       
-      ![Feature Importance Analysis.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Feature%20Importance%20Analysis.PNG)
+   ![Feature Importance Analysis.PNG](https://github.com/awalindeep/FinalProject_Team7/blob/Claudia-Martin/Resources/Images/Feature%20Importance%20Analysis.PNG)
       
-      From this feature analysis we see that minutes played (MIN) and personal fouls (PF) were of the least importance when running this model. 
+   From this feature analysis we see that minutes played (MIN) and personal fouls (PF) were of the least importance when running this model. 
 
 #### 6. EasyEnsembleClassifier
 
