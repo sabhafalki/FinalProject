@@ -127,7 +127,7 @@ The csv's were then imported into the respective tables and the below image outl
 The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.
 
 
-## Conclusion
+## Conclusion ##
 
 To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different measures that help us to perdict and analyze player's and team's performance based on  various parmeters(i.e. Shots, Passes, Fouls, Turnover, etc.). The following are the outcomes results of this analysis:
 - 
