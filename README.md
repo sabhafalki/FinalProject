@@ -205,13 +205,13 @@ d. Overall Summary: Provides a high level breakdown of all the different stats f
 The above information can be used by the Team, Coach, Sponsonrs, etc, which will aid in improving performance, evaluating various parameters, etc. The link to the above dahsboards is mentioned below. 
 
 ## Conclusion ##
-# Summary #
+### Summary ###
 Using the 2018-2019 NBA Champion Toronto Raptors data, we were able to analyze various aspects (i.e. Shots, Passes, Fouls, Turnover, etc.) which help us in perdicting and measuring the individual player's and teams performance. We were able to concur the following from our analysis:
 - The Team has won more games when they have played in their Home Location weather it is Regular or Playoff.
 - Regardless of location of the game (i.e. Home or Away), Kawhi Leonard was the best player to score the hightest points overall.
 - Pascal Siakam (Raptors Forward Player) had the best high Field Goal percentage, with high rate of wins in this season.
 
-# Plausible Uses and Improvements #
+### Plausible Uses and Improvements ###
 - The data we used to analyze was only for a particular season which they happen to win. This analysis can help the Toronto Raptors Board to extend the contract of the high performing players based on the various parameters.
 - This analysis also helps in understanding areas of improvement for the up coming young players (freshmen). 
 - Appart from the champship data, we have to evaluate other data such as regular games, scoring postions, frehmen performance and the type of goal the players are good at. This will help formulate a strong team.
