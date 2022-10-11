@@ -194,6 +194,7 @@ b. Minutes Played vs Overall Score: Correlates the time a player spent on the co
 c. Player Performance: Provides insight on each players performance (i.e. scores) <br>
 d. Free Throw Attempts vs Made: Correlates the Free Throw Attempts and the Free Throws Made <br>
 e. Overall Summary: Provides a high level breakdown of all the different stats of each player <br>
+<br><img src="https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Images/Raptors-Player-Stats.gif" width="700" height="500"/> <br>
 
 2. Raptors - Team Stats <br>
 This dasuboard has multiple components which focus on team stats, and analyze the following information: <br>
@@ -201,6 +202,7 @@ a. Annual Team Score Summary: Provides an overall summary of the Teams Wins and 
 b. Monthly Breakdown of Match's Played: Overall monthly breakdown of the teams Wins and Losses <br>
 c. Win-Loss Based on Score: Correlates the Wins and Losses, with the overall score made by the team <br>
 d. Overall Summary: Provides a high level breakdown of all the different stats for the team <br>
+<br><img src="https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Images/Raptors-Team-Stats.gif" width="700" height="500"/>
 <br>
 The above information can be used by the Team, Coach, Sponsonrs, etc, which will aid in improving performance, evaluating various parameters, etc. The link to the above dahsboards is mentioned below. 
 
