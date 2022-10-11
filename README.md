@@ -186,6 +186,9 @@ The csv's were then imported into the respective tables and the below image outl
 ![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
 
 ## Project Dashboard
+To complete the visualization for the Toronto Raptors 2018-2019 NBA Championship, we utilized Tableau to create Dashboards. We also used Tableau Prep Builder to clean, sanitize, and process the data. We have created teh following Dashboards
+
+
 The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.
 
 
@@ -207,6 +210,6 @@ To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents differen
 
 ## Storyboard
 Player's Storyboard <br>
-[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/PlayerDashboard_16651306173910/Story1) <br><br>
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-PlayersStats/Raptors-PlayersStats) <br><br>
 Team Storyboard <br>
-[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/RaptorsTeam/RaptorsTeam)
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-TeamStats/Raptors-TeamStats)
