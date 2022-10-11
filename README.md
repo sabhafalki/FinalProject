@@ -223,7 +223,7 @@ Using the 2018-2019 NBA Champion Toronto Raptors data, we were able to analyze v
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
 
 ## Storyboard
-Player's Storyboard <br>
+Raptors - Player Stats Storyboard <br>
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-PlayersStats/Raptors-PlayersStats) <br><br>
-Team Storyboard <br>
+Raptors - Team Stats Storyboard <br>
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-TeamStats/Raptors-TeamStats)
