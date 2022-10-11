@@ -187,20 +187,21 @@ The csv's were then imported into the respective tables and the below image outl
 
 ## Project Dashboard
 To complete the visualization for the Toronto Raptors 2018-2019 NBA Championship, we utilized Tableau to create Dashboards. We also used Tableau Prep Builder to clean, sanitize, and process the data. We have created the following Dashboards:
-1. Raptors - Players Stats
-This dashboard has multiple components which focus on player stats, and portrays the following information:
-a) Annual Player Score based on Year: Overall player score based on yearly cumulative
-b) Minutes Played vs Overall Score: Correlates the time a player spent on the court, to the points made by them
-c) Player Performance: Provides insight on each players performance (i.e. scores)
-d) Free Throw Attempts vs Made: Correlates the Free Throw Attempts and the Free Throws Made
-e) Overall Summary: Provides a high level breakdown of all the different stats of each player
+1. Raptors - Players Stats <br>
+This dashboard has multiple components which focus on player stats, and portrays the following information: <br>
+a. Annual Player Score based on Year: Overall player score based on yearly cumulative <br>
+b. Minutes Played vs Overall Score: Correlates the time a player spent on the court, to the points made by them <br>
+c. Player Performance: Provides insight on each players performance (i.e. scores) <br>
+d. Free Throw Attempts vs Made: Correlates the Free Throw Attempts and the Free Throws Made <br>
+e. Overall Summary: Provides a high level breakdown of all the different stats of each player <br>
 
-2. Raptors - Team Stats
-a) Annual Team Score Summary: Provides an overall summary of the Teams Wins and Losses, in relation to their location (i.e. Home or Away)
-b) Monthly Breakdown of Match's Played: Overall monthly breakdown of the teams Wins and Losses
-c) Win-Loss Based on Score: Correlates the Wins and Losses, with the overall score made by the team
-d) Overall Summary: Provides a high level breakdown of all the different stats for the team
-
+2. Raptors - Team Stats <br>
+This dasuboard has multiple components which focus on team stats, and analyze the following information: <br>
+a. Annual Team Score Summary: Provides an overall summary of the Teams Wins and Losses, in relation to their location (i.e. Home or Away) <br>
+b. Monthly Breakdown of Match's Played: Overall monthly breakdown of the teams Wins and Losses <br>
+c. Win-Loss Based on Score: Correlates the Wins and Losses, with the overall score made by the team <br>
+d. Overall Summary: Provides a high level breakdown of all the different stats for the team <br>
+<br>
 The above information can be used by the Team, Coach, Sponsonrs, etc, which will aid in improving performance, evaluating various parameters, etc. The link to the above dahsboards is mentioned below. 
 
 ## Conclusion ##
