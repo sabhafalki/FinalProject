@@ -186,18 +186,37 @@ The csv's were then imported into the respective tables and the below image outl
 ![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
 
 ## Project Dashboard
-The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.
+To complete the visualization for the Toronto Raptors 2018-2019 NBA Championship, we utilized Tableau to create Dashboards. We also used Tableau Prep Builder to clean, sanitize, and process the data. We have created the following Dashboards:
+1. Raptors - Players Stats <br>
+This dashboard has multiple components which focus on player stats, and portrays the following information: <br>
+a. Annual Player Score based on Year: Overall player score based on yearly cumulative <br>
+b. Minutes Played vs Overall Score: Correlates the time a player spent on the court, to the points made by them <br>
+c. Player Performance: Provides insight on each players performance (i.e. scores) <br>
+d. Free Throw Attempts vs Made: Correlates the Free Throw Attempts and the Free Throws Made <br>
+e. Overall Summary: Provides a high level breakdown of all the different stats of each player <br>
+<br><img src="https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Images/Raptors-Player-Stats.gif" width="700" height="500"/> <br>
 
+2. Raptors - Team Stats <br>
+This dasuboard has multiple components which focus on team stats, and analyze the following information: <br>
+a. Annual Team Score Summary: Provides an overall summary of the Teams Wins and Losses, in relation to their location (i.e. Home or Away) <br>
+b. Monthly Breakdown of Match's Played: Overall monthly breakdown of the teams Wins and Losses <br>
+c. Win-Loss Based on Score: Correlates the Wins and Losses, with the overall score made by the team <br>
+d. Overall Summary: Provides a high level breakdown of all the different stats for the team <br>
+<br><img src="https://github.com/awalindeep/FinalProject_Team7/blob/AwalinGHMAIN/Resources/Images/Raptors-Team-Stats.gif" width="700" height="500"/>
+<br>
+The above information can be used by the Team, Coach, Sponsonrs, etc, which will aid in improving performance, evaluating various parameters, etc. The link to the above dahsboards is mentioned below. 
 
 ## Conclusion ##
-To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents different measures that help us to perdict and analyze player's and team's performance based on  various parmeters(i.e. Shots, Passes, Fouls, Turnover, etc.). The following are the outcomes results of this analysis:
-- According to the Raptors Champship data, It is concerned for a particular season which they won. This analysis helps the Toronto Raptors Board to extend the contract of the high performing players based various Parameters.
-- Helps to show the area of improvement for the up coming young players (freshers). 
-- The match's played in home have more win's then Away, weather it is Regular or Playoff.
-- Either it is Home/Away, Kawhi Leonard is the best player to score more points to win the Champship.
-- Pascal Siakam Raptors forward is the player with high Field Goal percentage, with high rate of wins in this season. 
-- Appart from the champship data for overall evaluation, we have to evaluate other data such as in home play-by-play, Scoring postions, freshers players performance and the type of goal the players are good at. That helps to from a strong team.
- 
+### Summary ###
+Using the 2018-2019 NBA Champion Toronto Raptors data, we were able to analyze various aspects (i.e. Shots, Passes, Fouls, Turnover, etc.) which help us in perdicting and measuring the individual player's and teams performance. We were able to concur the following from our analysis:
+- The Team has won more games when they have played in their Home Location weather it is Regular or Playoff.
+- Regardless of location of the game (i.e. Home or Away), Kawhi Leonard was the best player to score the hightest points overall.
+- Pascal Siakam (Raptors Forward Player) had the best high Field Goal percentage, with high rate of wins in this season.
+
+### Plausible Uses and Improvements ###
+- The data we used to analyze was only for a particular season which they happen to win. This analysis can help the Toronto Raptors Board to extend the contract of the high performing players based on the various parameters.
+- This analysis also helps in understanding areas of improvement for the up coming young players (freshmen). 
+- Appart from the champship data, we have to evaluate other data such as regular games, scoring postions, frehmen performance and the type of goal the players are good at. This will help formulate a strong team.
 
 ## Resources
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://github.com/awalindeep/FinalProject_Team7/tree/AwalinGHMAIN/Resources)
@@ -206,7 +225,7 @@ To conclude, the 2018-2019 NBA Champion Toronto Raptors data represents differen
 [![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://docs.google.com/presentation/d/1Zr4hH1fCiVoQane84CiFByj1gcuTspphzM_FtJ9em2I/edit#slide=id.p)
 
 ## Storyboard
-Player's Storyboard <br>
-[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/PlayerDashboard_16651306173910/Story1) <br><br>
-Team Storyboard <br>
-[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/RaptorsTeam/RaptorsTeam)
+Raptors - Player Stats Storyboard <br>
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-PlayersStats/Raptors-PlayersStats) <br><br>
+Raptors - Team Stats Storyboard <br>
+[![click](https://github.com/awalindeep/FinalProject_Team7/blob/Awalin-buttar/Resources/click.png)](https://public.tableau.com/app/profile/falki.sabha/viz/Raptors-TeamStats/Raptors-TeamStats)
