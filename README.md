@@ -27,9 +27,34 @@ In order for our analysis to be fruitful, we will focus on the following key que
 - Square Role - Awalin Buttar - Github/Dashboard
 - Circle Role - Gopinath Vasanthakumar - Database
 
-## Getting started
-  
-## Exploratory Data
+## Database
+
+As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accommodate any future data through a star schema with dimension tables around players and matchup teams and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure.
+
+![ERD](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptor_ERD_updated.png)
+
+This data structure is considered to be a scalable model, with
+
+DIMENSION
+- Players
+- Teams 
+- Regulars
+- PlayOffs 
+
+FACT
+- RegularPlayers
+- PlayoffsPlayers
+
+A basic sanity cleansing activity was performed and certain vlookup functions were performed to establish new columns to have the schema outlined in the ERD. The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis. 
+
+The csv files were cleansed for basic sanity and some formatting changes to the columns, the database and tables were created as per the sql file below inline with the ERD.
+
+[schema.sql](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/raptors_schema.sql)
+
+The csv's were then imported into the respective tables and the below image outlines the records in the relevant tables
+
+![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
+
 
 ## Machine Learning
 Using the Raptors 2018-2019 Championship season data set we hope to  explore different machine learning models. The models we hope to use include oversampling, undersampling and combination sampling algorithms. Additionally we hope to use Ensemble learners; in using these we hope to extract feature importance. Overall the algorithms we will use are:
@@ -156,34 +181,6 @@ Results from the ML algorithms are found below:
 From the results of the ML analysis described above we can see that the EasyEnsembleClassifier model was the most accurate (86.7%). It is important to note that there were two other models that displayed similar accuracy scores: RandomOverSampler (85.8%) and ClusterCentroids (85%). For future analysis it may be interesting to add further historical data of previous seasons to see if the results remain the same. It would also be interesting to see what feature importances persist in this case with more data.
 
 Finally, I would recommend the use of the EasyEnsembleClassifier model due to it having the highest accuracy score of all the models. A limitation of this model however is that it can be sewnsative to outliers and noise therefore care has to be put to identify if outliers exist in the avaliablke data. Future steps could include outlier analysis and exclusion to perhaps improve the outcomes of this model.
-
-## Database
-
-As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accommodate any future data through a star schema with dimension tables around players and matchup teams and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure.
-
-![ERD](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptor_ERD_updated.png)
-
-This data structure is considered to be a scalable model, with
-
-DIMENSION
-- Players
-- Teams 
-- Regulars
-- PlayOffs 
-
-FACT
-- RegularPlayers
-- PlayoffsPlayers
-
-A basic sanity cleansing activity was performed and certain vlookup functions were performed to establish new columns to have the schema outlined in the ERD. The team decide to ingest the cleaned data for the analysis into SQL database rather than handling them as flat files. We intend to move the data into a PostgreSQL database and create tables as per the ERD for further analysis. 
-
-The csv files were cleansed for basic sanity and some formatting changes to the columns, the database and tables were created as per the sql file below inline with the ERD.
-
-[schema.sql](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/raptors_schema.sql)
-
-The csv's were then imported into the respective tables and the below image outlines the records in the relevant tables
-
-![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
 
 ## Project Dashboard
 The Toronto Raptors 2018-2019 NBA Championship visualization is done by using Tableau to create Dashboards. We are also using Tableau Prep Builder tool to design,prepare data easy and intuitives. To create a Data Visualization, have to go through a process which includes Select questions, Execute independent research, Craft Tableau story and Create a written analysis. Finally, publishing the storyboard in Tableau website with the visual representation of the Questions we want to answer. The Tableau storyboard is published which can be viewed by the Team, Coach and so on. The link to the website is added below.
