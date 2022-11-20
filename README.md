@@ -31,7 +31,7 @@ In order for our analysis to be fruitful, we will focus on the following key que
 
 As outlined in the project goal, the team intends to use the 2018-2019 NBA Champion Toronto Raptors dataset available in Kaggle. Though the data size is small and can be handled as flat files for the analysis, the team formalized a data structure which could be scalable to accommodate any future data through a star schema with dimension tables around players and matchup teams and fact tables around game metrics at game and player level. Refer the below ERD for understanding of the data structure.
 
-![ERD](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptor_ERD_updated.png)
+![ERD](/Resources/Raptor_ERD_updated.png)
 
 This data structure is considered to be a scalable model, with
 
@@ -49,11 +49,11 @@ A basic sanity cleansing activity was performed and certain vlookup functions we
 
 The csv files were cleansed for basic sanity and some formatting changes to the columns, the database and tables were created as per the sql file below inline with the ERD.
 
-[schema.sql](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/raptors_schema.sql)
+[schema.sql](/Resources/raptors_schema.sql)
 
 The csv's were then imported into the respective tables and the below image outlines the records in the relevant tables
 
-![Data_ingestion](https://github.com/awalindeep/FinalProject_Team7/blob/ffd828f26fdce12b23cbcd8a2eaaf32eec0c889f/Resources/Raptors_DB_Data%20Ingestion.png)
+![Data_ingestion](/Resources/Raptors_DB_Data%20Ingestion.png)
 
 
 ## Machine Learning
